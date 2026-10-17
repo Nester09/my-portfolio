@@ -3,18 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Nester Mwimali's IT student portfolio, featuring projects, technical skills, and academic work.">
+  <meta name="description" content="I'm Nester Mwimali and this is my portfolio featuring projects, technical skills, and academic work.">
   <title>Nester Mwimali | IT Student Portfolio</title>
+  <meta name="author" content="Nester Mwimali Wesonga">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#2c5f8a">
+  <link rel="canonical" href="https://my-portfolio.nestermwimali.workers.dev/">
+
+  <!-- Favicons -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
   <!-- Open Graph tags -->
-  <meta property="og:title" content="My Student Portfolio">
-  <meta property="og:description" content="A look at Nester Mwimali's IT projects, technical skills, and academic work.">
-  <meta property="og:image" content="https://yourdomain.com/images/portfolio-preview.png">
-  <meta property="og:url" content="https://yourdomain.com/">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Nester Mwimali">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://my-portfolio.nestermwimali.workers.dev/">
+  <meta property="og:title" content="Nester Mwimali | IT Student Portfolio">
+  <meta property="og:description" content="Take a look at my IT projects, technical skills, and academic work.">
+  <meta property="og:image" content="https://my-portfolio.nestermwimali.workers.dev/images/portfolio-preview.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Nester Mwimali's portfolio, with a portrait photo">
+
+  <!-- Twitter / X card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nester Mwimali | IT Student Portfolio">
+  <meta name="twitter:description" content="Take a look at my IT projects, technical skills, and academic work.">
+  <meta name="twitter:image" content="https://my-portfolio.nestermwimali.workers.dev/images/portfolio-preview.png">
+  <meta name="twitter:image:alt" content="Nester Mwimali's portfolio, with a portrait photo">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -65,13 +87,14 @@
     </a>
   </header>
 
+  <main>
   <!-- ===================== ABOUT ===================== -->
   <section id="about">
     <div class="container">
       <h2 class="section-heading">About Me</h2>
       <div class="row align-items-center">
         <div class="col-lg-4 text-center mb-4 mb-lg-0">
-          <img src="images/profile.png" alt="Portrait of Nester Mwimali Wesonga" class="img-fluid profile-img">
+          <img src="images/profile.jpg" alt="Portrait of Nester Mwimali Wesonga" class="img-fluid profile-img">
         </div>
         <div class="col-lg-8">
           <p>
@@ -120,7 +143,7 @@
             <p class="skill-level mt-3">Working Knowledge</p>
             <div>
               <span class="badge skill-badge">Java</span>
-              <span class="badge skill-badge">Python</span>
+              <span class="badge skill-badge">C/C++</span>
             </div>
           </div>
         </div>
@@ -218,7 +241,7 @@
               <p class="project-type">Final-Year Academic Project</p>
               <h3 class="h5 card-title">Crime Management System</h3>
               <p class="card-text">
-                A web-based system for reporting and managing crime cases, with separate dashboards for administrators,
+                A system that supports reporting and managing crime cases, with separate dashboards for administrators,
                 police officers and users.
               </p>
               <div class="tech-stack mb-3">
@@ -230,12 +253,15 @@
                 <span class="badge skill-badge">XAMPP</span>
               </div>
               <div class="mt-auto">
+                <!-- Buttons hidden until the repository is public.
                 <a href="YOUR_GITHUB_REPOSITORY_URL" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">
-                  <i class="bi bi-github me-1"></i>View on GitHub[To be added]
+                  <i class="bi bi-github me-1"></i>View on GitHub
                 </a>
                 <a href="YOUR_GITHUB_REPOSITORY_URL" class="btn btn-sm btn-primary mt-1 ms-2" target="_blank" rel="noopener">
                   <i class="bi bi-terminal me-1"></i>How to Run
                 </a>
+                -->
+                <p class="text-muted small mb-0"><i class="bi bi-clock-history me-1"></i>Source code coming soon on GitHub.</p>
               </div>
             </div>
           </div>
@@ -355,7 +381,7 @@
                 <a href="https://github.com/Nester09/forethought-decision-support-system" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">
                   <i class="bi bi-github me-1"></i>View on GitHub
                 </a>
-                <a href="YOUR_LIVE_DEMO_URL" class="btn btn-sm btn-primary ms-2" target="_blank" rel="noopener">
+                <a href="https://forethought-decision-support-system.nestermwimali.workers.dev/" class="btn btn-sm btn-primary ms-2" target="_blank" rel="noopener">
                   <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
                 </a>
               </div>
@@ -406,7 +432,7 @@
       </div>
       <div class="text-center mt-4">
         <a href="assets/Nester_Mwimali-CV.pdf" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
-          <i class="bi bi-download me-2"></i>Download CV
+          <i class="bi bi-eye me-2"></i>View My CV
         </a>
       </div>
     </div>
@@ -438,12 +464,14 @@
           </div>
           <div class="contact-item">
             <i class="bi bi-linkedin"></i>
-            <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/nester-mwimali-wesonga" target="_blank" rel="noopener">LinkedIn</a>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  </main>
 
   <!-- ===================== FOOTER ===================== -->
   <footer>
@@ -451,7 +479,7 @@
       <p class="mb-2">Nester Mwimali &mdash; Thika, Kenya</p>
       <div class="social-links mb-3">
         <a href="https://github.com/Nester09" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
-        <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/nester-mwimali-wesonga" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
         <a href="mailto:nestermwimali@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
       </div>
       <p class="mb-0 footer-copy">&copy; <span id="currentYear"></span> Nester Mwimali. All rights reserved.</p>
